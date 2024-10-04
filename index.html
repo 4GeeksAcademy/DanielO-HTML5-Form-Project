@@ -25,6 +25,12 @@
           </div>
 
           <div class="row">
+            <div class="col-12 text-start mb-3" style="background-color: #f4808c;">
+              <p>Some fields are missing</p>
+            </div>
+          </div>
+
+          <div class="row">
             <div class="col-5 text-start">
               <div class="mb-3 text start">
                 <label for="card number" class="form-label">
@@ -60,16 +66,43 @@
             </div>
 
             <div class="row">
-              <div class="col-6"></div>
-              <div class="col-6"></div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="text-start">
+                    <label for="Firs-Name" class="form-label">
+                      First Name
+                    </label>
+                    <input type="text" class="form-control" id="first-name" placeholder="" minlength="16" maxlength="16"
+                      required />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="mb-3 text-start">
+                  <label for="Last Name" class="form-label">
+                    Last Name
+                  </label>
+                  <input type="text" class="form-control" id="card number" placeholder="" minlength="16" maxlength="16"
+                    required />
+                </div>
+              </div>
             </div>
 
             <div class="row">
-              <div class="col-6"></div>
+              <div class="col-6">
+                <div class="mb-3 text-start">
+                  <label for="City" class="form-label">
+                    City
+                  </label>
+                  <input type="text" class="form-control" id="City" placeholder="" minlength="3" maxlength="4"
+                    required />
+                </div>
+              </div>
+
               <div class="col-3">
                 <div class="mb-3 text-start">
-                  <label 
-                      for="us-state">
+                  <label for="us-state">
                     State
                   </label>
                   <select class="form-select" aria-label="Default select example">
@@ -78,10 +111,18 @@
                     <option value="2">Alaska</option>
                     <option value="3">Arizona</option>
                   </select>
-                  
+
                 </div>
               </div>
-              <div class="col-3"></div>
+              <div class="col-3">
+                <div class="mb-3 text-start">
+                  <label for="postal-code" class="postal-code">
+                    postal Code
+                  </label>
+                  <input type="text" class="form-control" id="CVC #" placeholder="0000" minlength="3" maxlength="4"
+                    required />
+                </div>
+              </div>
             </div>
             <div class="row">
               <div class="col-6"></div>
